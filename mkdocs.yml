@@ -1,0 +1,43 @@
+site_name: Ktisis Docs
+site_url: https://ktisis-tools.github.io/docs/
+site_description: Documentation wiki for the Ktisis GPose plugin.
+
+repo_url: https://github.com/ktisis-tools/ktisis
+repo_name: ktisis-tools/ktisis
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: deep purple
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: deep purple
+      accent: purple
+  logo: assets/icon2.png
+  favicon: assets/icon.png
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+
+plugins:
+  - social
+  - search
+
+# any navigable new pages must be added to nav for manual sorting
+nav:
+  - Home: index.md
+  - FAQ: faq.md
+  - Posing:
+    - Overlay Controls: posing/overlay.md
