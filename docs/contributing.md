@@ -1,6 +1,7 @@
 # Contributing to the Ktisis Wiki
 
 A prerequisite for this guide is that you have a github account, if you dont please sign up [here](https://github.com/signup).
+**Note** this page is under construction, and will be rough around the edges, but will serve as a good starting point.
 
 ## Getting started
 
