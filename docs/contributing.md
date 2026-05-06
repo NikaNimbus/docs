@@ -15,10 +15,14 @@ From here, you can open the docs folder where all of your work will take place, 
 <img width="480" height="250" alt="firefox_CX44tNxAfv" src="https://github.com/user-attachments/assets/94f72c48-206e-4aaf-b53b-3d457049f052" />
 All of the files you'll make by hand will end in the .md format, you can find out more about markdown in the [markdown guide](https://www.markdownguide.org/basic-syntax/)
 If you're using the web editor, a few things to note: 
-* You have to commit your changes before leaving the page, otherwise your work will be lost.
-* You can drag and drop an image file directly on to the editor and it will upload and embed it for you.
-* Its mainly good for quick edits, but if you dont want to go all in on setting up a workspace, it works well enough.
-* You can and should check the Preview thats offered, it wont be 1:1 but it will give a good enough idea of what your page formatting will look like.
+
+-   You have to commit your changes before leaving the page, otherwise your work will be lost.
+
+-   You can drag and drop an image file directly on to the editor and it will upload and embed it for you.
+
+-   Its mainly good for quick edits, but if you dont want to go all in on setting up a workspace, it works well enough.
+
+-   You can and should check the Preview thats offered, it wont be 1:1 but it will give a good enough idea of what your page formatting will look like.
 
 ## Contributing back to the docs
 
