@@ -12,7 +12,9 @@ This will bring you to your own copy of the docs, which you are now free to mess
 If you cant find your copy of the wiki, click on the user icon in the top right corner of github and hit 'Repositories', then find the one that says docs, that should be your copy. You'll be greated like the screen below if you did it right:
 ![](https://puu.sh/KMFPu/9eacfdc9c5.png)
 From here, you can open the docs folder where all of your work will take place, you can either open a page to edit, or add a new file on the top right hand side.
-<img width="480" height="250" alt="firefox_CX44tNxAfv" src="https://github.com/user-attachments/assets/94f72c48-206e-4aaf-b53b-3d457049f052" />
+
+<img width="480" height="250" alt="firefox_CX44tNxAfv" src="https://github.com/user-attachments/assets/94f72c48-206e-4aaf-b53b-3d457049f052"/>
+
 All of the files you'll make by hand will end in the .md format, you can find out more about markdown in the [markdown guide](https://www.markdownguide.org/basic-syntax/)
 If you're using the web editor, a few things to note: 
 
