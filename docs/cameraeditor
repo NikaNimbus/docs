@@ -1,0 +1,24 @@
+# Camera Editor
+
+The **Camera Editor** allows you more precise control of your cameras position, angle, rotation and distance, then you would otherwise have with the base GPose UI.
+To access the Camera Editor click on the Pencil icon button inbetween the **+** 'Create New Camera' Button and the 'Toggle Work Camera' Button. This will open a seperate window for you to drag and place freely on your screen to use at anypoint during posing.
+**Note**
+
+## Basics
+
+The Camera Editor's window has a lot of options to mess with let's go one by one-
+
+Collision, Delimited and Orthographic are all indivual boxes you are able to toggle to change how your Camera behaves, while posing.
+    -  Collision, by default this is enabled for all Cameras. Meaning your Camera will obey the collision physics of your surrounding area. Toggling/Unchecking it will disable and ignore collision phsyics.
+    -  Demlimited, toggling this will free most restraints the basic GPose Camera has. Allowing for more free movement when moving your Camera.
+    -  Orthographic, toggling this allows for more aerial/satellite-like perspective and camera view. Allowing you a wider field of vision then you would normally have.
+
+In a text box below those is the name of your current Camera, clicking on the text box will let you edit and or change the name. In order to change your current Camera, simply go back up to the Workspace (the default) window and click on the dropdown arrow to list all your current created Cameras. Alternatively the default keybinds to swap cameras are **[** & **]**, the left square bracket goes backwards and the right square bracket goes forward cycling through all your current Cameras in order.
+
+Under the name of your current Camera there are two seperated buttons on each side of the Camera Editor Window.
+-  The left most button, with the unlocked padlock icon, locks your current Camera to your selected target. This is useful when posing multiple characters at one time and not wanting to lose your main cameras placement.
+-  The right most button, with a swirl or refresh-like icon, offsets your current Camera to your selected target. Cameras have a select position that they orbit around, this is typically where your character is positioned. When adjusting your characters position, clicking this will offset to the characters new position.
+
+The other unlocked padlock icon button and RGB text boxes next to it, are related to the fixed position of your character. Clicking the padlock button will lock your current actors position, allowing you to precisely move them by the coords.
+
+> Red refers to X axis, Green refers to Z axis and Blue refers to the Y axis. This remains true for all 6 color coded text boxes, as well as the individual gizmos elaborated on other pages in the guide.
