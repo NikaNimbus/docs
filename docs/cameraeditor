@@ -2,23 +2,41 @@
 
 The **Camera Editor** allows you more precise control of your cameras position, angle, rotation and distance, then you would otherwise have with the base GPose UI.
 To access the Camera Editor click on the Pencil icon button inbetween the **+** 'Create New Camera' Button and the 'Toggle Work Camera' Button. This will open a seperate window for you to drag and place freely on your screen to use at anypoint during posing.
-**Note**
 
-## Basics
+> To access the Camera Editor will be slightly different if working with the Toolbar mode, which is accessible in the Ktisis Settings. Same general premise.
 
-The Camera Editor's window has a lot of options to mess with let's go one by one-
+## General
 
-Collision, Delimited and Orthographic are all indivual boxes you are able to toggle to change how your Camera behaves, while posing.
+The Camera Editors window has a lot of options to mess with let's go one by one-
+
+Collision, Delimited and Orthographic are all indivual boxes you are able to toggle to change how your Camera behaves.
     -  Collision, by default this is enabled for all Cameras. Meaning your Camera will obey the collision physics of your surrounding area. Toggling/Unchecking it will disable and ignore collision phsyics.
     -  Demlimited, toggling this will free most restraints the basic GPose Camera has. Allowing for more free movement when moving your Camera.
     -  Orthographic, toggling this allows for more aerial/satellite-like perspective and camera view. Allowing you a wider field of vision then you would normally have.
 
-In a text box below those is the name of your current Camera, clicking on the text box will let you edit and or change the name. In order to change your current Camera, simply go back up to the Workspace (the default) window and click on the dropdown arrow to list all your current created Cameras. Alternatively the default keybinds to swap cameras are **[** & **]**, the left square bracket goes backwards and the right square bracket goes forward cycling through all your current Cameras in order.
+In a text box below those is the name of your current Camera, clicking on the text box will let you edit the name. In order to change your current Camera, simply go back up to the Workspace (the default) window and click on the dropdown arrow to list all your current created Cameras. Alternatively the default keybinds to swap cameras are **[** & **]**, the left square bracket goes backwards and the right square bracket goes forward cycling through all your current Cameras in order.
 
-Under the name of your current Camera there are two seperated buttons on each side of the Camera Editor Window.
--  The left most button, with the unlocked padlock icon, locks your current Camera to your selected target. This is useful when posing multiple characters at one time and not wanting to lose your main cameras placement.
--  The right most button, with a swirl or refresh-like icon, offsets your current Camera to your selected target. Cameras have a select position that they orbit around, this is typically where your character is positioned. When adjusting your characters position, clicking this will offset to the characters new position.
+Under the name of your current Camera there are two seperated buttons on each side of the Camera Editor Window, with the name of your current actor in between.
+    -  The left most button, with a unlocked padlock icon, locks your current Camera to your selected target. This is useful when posing multiple characters at one time and not wanting to lose your main cameras placement. As shifting actors can often times shift your cameras position.
+    -  The right most button, with a swirl or refresh-like icon, offsets your current Camera to your selected target. Cameras have a select position that they orbit around, this is typically where your character is positioned. When adjusting your characters position, clicking this will offset to the characters new position.
 
-The other unlocked padlock icon button and RGB text boxes next to it, are related to the fixed position of your character. Clicking the padlock button will lock your current actors position, allowing you to precisely move them by the coords.
+## Transforms & Coords
 
-> Red refers to X axis, Green refers to Z axis and Blue refers to the Y axis. This remains true for all 6 color coded text boxes, as well as the individual gizmos elaborated on other pages in the guide.
+When moving your Camera while you are able to do it via dragging the mouse or scrolling with the scroll wheel. You have multiple sets of transform options to more precisely move your Camera around your focused actor, to get it in the exact position you would like for your pose.
+
+    -  [Insert Name of button here], with a unlocked padlock icon and RGB transforms next to it. Are related to the camera's approximate global position, clicking it will lock your current camera's position. Allowing you to precisely move it by coords.
+
+    -  The next row of transforms are based on the camera's offsets. Tweaking these you can move the Camera while any actors are still in motion and or the Camera is targeting something.
+
+> Red refers to X axis, Green refers to Z axis and Blue refers to the Y axis. This remains true for all 6 colored transforms as well as the individual gizmos elaborated on, on other pages in the wiki.
+
+    -  Third set of transforms is related to the Cameras orbit around your selected actor, think of the orbit in the shape of a sphere. These transforms allow you to precisely move the Camera horizontally or vertically along that sphere.
+
+    -  Lastly, the last two transforms allows for Camera panning. Changing directions the Camera is looking vertically and/or horizontally, along the X & Z axis respectively from left to right.
+
+## Sliders
+
+The first two of three sliders are a lot like the ones offered with the base GPose UI with some additional flexibility.
+    -  Angle/Rotation, the initial slider allows you to change the rotation of your Camera, always default to 0° to start. Dragging the slider to the left or right will rotate your current Camera counterclockwise and/or clockwise respectively. Additionally for more precise movement of your Cameras angle clicking the text box will allow you adjust the degrees manually.
+    -  Zoom, next is the zoom slider. Dragging the slider to the left will zoom your camera out, to the right will zoom your camera in. With the additional option of being able to manually adjust the number via the textbox.
+    -  Distance
